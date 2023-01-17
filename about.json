@@ -1,7 +1,7 @@
 {
   "name": "Test Theme",
-  "license_url": "",
-  "about_url": "",
+  "license_url": "https://github.com/gingerJY/discourse-test-theme/blob/master/LICENSE",
+  "about_url": "https://github.com/gingerJY/discourse-test-theme/blob/master/README.md",
   "assets": {
   },
   "color_schemes": {
