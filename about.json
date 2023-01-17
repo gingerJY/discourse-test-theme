@@ -1,0 +1,21 @@
+{
+  "name": "Test Theme",
+  "license_url": "",
+  "about_url": "",
+  "assets": {
+  },
+  "color_schemes": {
+    "Test Light": {
+      "primary": "blue",
+      "secondary": "steelblue",
+      "tertiary": "skyblue",
+      "quaternary": "powderblue",
+      "header_background": "orange",
+      "header_primary": "purple",
+      "highlight": "yellow",
+      "danger": "red",
+      "success": "green",
+      "love": "pink"
+    }
+  }
+}
