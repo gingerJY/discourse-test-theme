@@ -9,25 +9,31 @@ html {
     // --header_primary-low-mid:#FFFFFF;
 }
 
-.test-banner {
-  height: 300px;
-  width: 100%;
-  // background: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1em;
-
-  &-text {
-    font-size: 8em;
-    color: white;
-  }
+// 隐藏alert提示
+.alert {
+  display: none !important;
 }
 
-.test-after-header {
-  background: red;
-}
 
-.test-header {
-  background: green;
-}
+// .test-banner {
+//   height: 300px;
+//   width: 100%;
+//   // background: red;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin-bottom: 1em;
+
+//   &-text {
+//     font-size: 8em;
+//     color: white;
+//   }
+// }
+
+// .test-after-header {
+//   background: red;
+// }
+
+// .test-header {
+//   background: green;
+// }
