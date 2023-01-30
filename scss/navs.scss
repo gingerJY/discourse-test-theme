@@ -12,12 +12,14 @@
 
       &:hover {
         color: var(--quaternary);
+        background-color: transparent;
       }
     }
 
     a.active,
     button.active {
       color: var(--quaternary);
+      background-color: transparent;
     }
   }
 }
