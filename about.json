@@ -5,7 +5,7 @@
   "assets": {
   },
   "color_schemes": {
-    "Test Light": {
+    "Test Light1": {
       "primary": "blue",
       "secondary": "steelblue",
       "tertiary": "skyblue",
@@ -15,7 +15,7 @@
       "highlight": "yellow",
       "danger": "red",
       "success": "green",
-      "love": "pink"
+      "love": "89FF00"
     }
   }
 }
