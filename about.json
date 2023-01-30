@@ -6,15 +6,15 @@
   },
   "color_schemes": {
     "Test Light1": {
-      "primary": "blue",
-      "secondary": "steelblue",
-      "tertiary": "skyblue",
-      "quaternary": "powderblue",
-      "header_background": "orange",
-      "header_primary": "purple",
-      "highlight": "yellow",
-      "danger": "red",
-      "success": "green",
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "46D3EC",
+      "quaternary": "FF3300",
+      "header_background": "F2F2F2",
+      "header_primary": "111111",
+      "highlight": "46D3EC",
+      "danger": "FF3300",
+      "success": "00D998",
       "love": "89FF00"
     }
   }
