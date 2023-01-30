@@ -1,0 +1,37 @@
+// https://github.com/discourse/discourse/blob/main/app/assets/stylesheets/common/base/header.scss
+.d-header {
+  box-shadow: none;
+}
+
+.d-header-icons {
+
+  .icon {
+
+    img.avatar {
+      width: 44px;
+      height: 44px;
+    }
+
+    .discourse-no-touch &:hover,
+    .discourse-no-touch &:focus {
+      background-color: transparent;
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+
+      >.d-icon {
+        color: var(--header_primary);
+      }
+    }
+
+    &:active {
+      color: var(--primary);
+      background-color: transparent;
+    }
+  }
+
+  .d-icon {
+    color: var(--header_primary);
+  }
+
+}
