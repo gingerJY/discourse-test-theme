@@ -6,21 +6,21 @@
 .d-header-icons {
 
   .icon {
-    width: 44px;
-    height: 44px;
+    // width: 44px;
+    // height: 44px;
 
-    img.avatar {
-      width: 44px;
-      height: 44px;
-    }
+    // img.avatar {
+    //   width: 44px;
+    //   height: 44px;
+    // }
 
-    .discourse-no-touch &:hover {
-      background-color: transparent;
-
-      >.d-icon {
-        color: var(--primary);
-      }
-    }
+    // .discourse-no-touch &:hover,
+    // .discourse-no-touch &:focus {
+      
+    //   >.d-icon {
+    //     color: var(--primary);
+    //   }
+    // }
 
     &:active {
       color: var(--primary);

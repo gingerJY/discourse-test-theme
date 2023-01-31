@@ -5,7 +5,7 @@
   "assets": {
   },
   "color_schemes": {
-    "Test Light1": {
+    "Test Light": {
       "primary": "000000",
       "secondary": "ffffff",
       "tertiary": "46D3EC",
@@ -15,7 +15,7 @@
       "highlight": "46D3EC",
       "danger": "FF3300",
       "success": "00D998",
-      "love": "89FF00"
+      "love": "666666"
     }
   }
 }
