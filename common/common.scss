@@ -11,13 +11,18 @@ html {
 
 :root {
     --d-max-width: 1200px;
-    --d-button-border-radius: 20px;
+    --d-button-border-radius: 100px;
+    --tertiary-hover: #84ECFF;
     // --header_primary-low-mid:#FFFFFF;
 }
 
 // 隐藏alert提示
 .alert {
   display: none !important;
+}
+
+.topic-map .buttons .btn {
+  border-radius: 0;
 }
 
 
