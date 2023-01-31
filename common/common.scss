@@ -4,12 +4,6 @@
 @import "_topic-list";
 @import "select-kit";
 
-@mixin default-focus() {
-  border-color: var(--quaternary);
-  outline: 1px solid var(--quaternary);
-  outline-offset: 0;
-}
-
 html {
   font-family: 'Poppins';
 }

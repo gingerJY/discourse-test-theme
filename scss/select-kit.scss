@@ -1,9 +1,13 @@
 .select-kit {
   .select-kit-header {
     &:not(.btn) {
-      border-radius: var(--d-input-border-radius);
       padding-left: 20px;
       padding-right: 20px;
     }
+  }
+
+  .single-select.is-expanded .select-kit-header:not(.btn) {
+    border-color: var(--quaternary);
+    outline: 1px solid var(--quaternary);
   }
 }
