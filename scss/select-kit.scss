@@ -15,6 +15,11 @@
   }
 }
 
+.select-kit.single-select.dropdown-select-box .select-kit-body {
+  border: none;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
 .select-kit.single-select.is-expanded .select-kit-header:not(.btn),
 .select-kit.single-select .select-kit-header:not(.btn):focus,
 .select-kit.single-select .select-kit-header:not(.btn):active {
