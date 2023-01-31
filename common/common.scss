@@ -13,7 +13,6 @@ html {
     --d-max-width: 1200px;
     --d-button-border-radius: 100px;
     --tertiary-hover: #84ECFF;
-    // --header_primary-low-mid:#FFFFFF;
 }
 
 // 隐藏alert提示
@@ -21,9 +20,16 @@ html {
   display: none !important;
 }
 
+// ----------------------------------
+// ------特殊位置button不需要圆角-------
 .topic-map .buttons .btn {
   border-radius: 0;
 }
+
+.user-menu.revamped .tabs-list .btn {
+  border-radius: 0;
+}
+// ----------------------------------
 
 
 // .test-banner {
