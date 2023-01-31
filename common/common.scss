@@ -1,6 +1,7 @@
 @import "navs";
 @import "header";
 @import "badges";
+@import "buttons";
 @import "_topic-list";
 @import "select-kit";
 
@@ -10,6 +11,7 @@ html {
 
 :root {
     --d-max-width: 1200px;
+    --d-button-border-radius: 20px;
     // --header_primary-low-mid:#FFFFFF;
 }
 
