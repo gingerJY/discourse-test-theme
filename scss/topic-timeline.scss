@@ -1,0 +1,16 @@
+.timeline-container {
+  .topic-timeline{
+    .timeline-scroller {
+      margin-left: -5px;
+    }
+    .timeline-handle {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--quaternary);
+    }
+    .timeline-scrollarea {
+      border-left: 1px solid var(--primary-300);
+    }
+  }
+}
