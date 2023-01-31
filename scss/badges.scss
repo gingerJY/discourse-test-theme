@@ -1,0 +1,16 @@
+// Category badges
+// --------------------------------------------------
+
+.badge-wrapper {
+  // ----- Bullet
+
+  &.bullet {
+
+    .badge-category-parent-bg,
+    .badge-category-bg {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+  }
+}

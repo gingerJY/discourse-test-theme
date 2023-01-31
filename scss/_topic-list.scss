@@ -1,0 +1,12 @@
+.list-controls {
+
+  .combo-box .combo-box-header {
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+
+    &:focus,
+    &:hover {
+      border-color: var(--quaternary);
+    }
+  }
+}
