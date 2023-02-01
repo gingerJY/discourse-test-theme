@@ -22,4 +22,24 @@
     </clipPath>
     </defs>
   </symbol>
+  <symbol id="nreal-caret-right" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_363_4071)">
+    <path d="M9.15637 8.00004L4.28532 12.8711C4.10958 13.0468 4.10958 13.3317 4.28532 13.5075L4.99251 14.2147C5.16825 14.3904 5.45317 14.3904 5.62891 14.2147L11.3486 8.49501C11.6219 8.22164 11.6219 7.77843 11.3486 7.50506L5.62891 1.78539C5.45317 1.60966 5.16825 1.60966 4.99251 1.78539L4.28532 2.49259C4.10958 2.66832 4.10958 2.95325 4.28532 3.12898L9.15637 8.00004Z" fill="black" stroke="black" stroke-width="0.4"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_363_4071">
+    <rect width="16" height="16" fill="white" transform="translate(0 16) rotate(-90)"/>
+    </clipPath>
+    </defs>
+  </symbol>
+  <symbol id="nreal-caret-down" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_363_2156)">
+    <path d="M9.99946 11.5162L3.87529 5.392C3.67515 5.19186 3.35065 5.19186 3.15051 5.392L2.26651 6.276C2.06637 6.47614 2.06637 6.80064 2.26651 7.00078L9.4161 14.1504C9.73828 14.4726 10.2606 14.4726 10.5828 14.1504L17.7324 7.00078C17.9326 6.80064 17.9326 6.47614 17.7324 6.276L16.8484 5.392C16.6483 5.19186 16.3238 5.19186 16.1236 5.392L9.99946 11.5162Z" fill="black" stroke="black" stroke-width="0.4"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_363_2156">
+    <rect width="20" height="20" fill="white"/>
+    </clipPath>
+    </defs>
+  </symbol>
 </svg>
