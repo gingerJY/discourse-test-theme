@@ -42,4 +42,14 @@
     </clipPath>
     </defs>
   </symbol>
+  <symbol id="nreal-caret-up" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_363_2496)">
+    <path d="M10.0005 8.48383L16.1247 14.608C16.3248 14.8081 16.6493 14.8081 16.8495 14.608L17.7335 13.724C17.9336 13.5239 17.9336 13.1994 17.7335 12.9992L10.5839 5.84963C10.2617 5.52745 9.73936 5.52745 9.41717 5.84963L2.26758 12.9992C2.06744 13.1994 2.06744 13.5239 2.26758 13.724L3.15158 14.608C3.35172 14.8081 3.67622 14.8081 3.87636 14.608L10.0005 8.48383Z" fill="black" stroke="black" stroke-width="0.4"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_363_2496">
+    <rect width="20" height="20" fill="white" transform="matrix(-1 0 0 -1 20 20)"/>
+    </clipPath>
+    </defs>
+  </symbol>
 </svg>
