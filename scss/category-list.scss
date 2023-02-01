@@ -21,6 +21,10 @@
       border: 1px solid var(--primary-low);
       border-left: none;
       display: flex;
+
+      &:hover {
+        background-color: var(--primary-100);
+      }
     }
 
     .category {

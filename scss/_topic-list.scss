@@ -10,3 +10,11 @@
     }
   }
 }
+
+.topic-list {
+  .topic-list-item {
+    &:hover {
+      background-color: var(--primary-100);
+    }
+  }
+}
