@@ -9,12 +9,12 @@
     "Test Light": {
       "primary": "000000",
       "secondary": "ffffff",
-      "tertiary": "46D3EC",
+      "tertiary": "000000",
       "quaternary": "FF3300",
       "header_background": "F2F2F2",
       "header_primary": "111111",
       "highlight": "E6E6E6",
-      "danger": "FF3300",
+      "danger": "FF3A52",
       "success": "00D998",
       "love": "ff3300"
     }
