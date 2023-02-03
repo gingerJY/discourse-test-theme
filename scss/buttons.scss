@@ -124,10 +124,10 @@
 
 .btn-primary {
   @include btn(
-    $text-color: var(--primary),
+    $text-color: var(--secondary),
     $bg-color: var(--tertiary),
-    $icon-color: var(--primary),
+    $icon-color: var(--secondary),
     $hover-bg-color: var(--tertiary-hover),
-    $hover-icon-color: var(--primary)
+    $hover-icon-color: var(--secondary)
   );
 }
