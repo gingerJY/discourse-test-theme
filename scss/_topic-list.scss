@@ -17,4 +17,15 @@
       background-color: var(--primary-100);
     }
   }
+
+  tbody {
+    border-top: 2px solid var(--primary-low);
+  }
+
+  .topic-list-data {
+    line-height: var(--line-height-very-large);
+  }
+  .link-bottom-line {
+    margin-top: 8px;
+  }
 }

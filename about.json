@@ -17,7 +17,8 @@
       "danger": "FF3A52",
       "success": "00D998",
       "love": "ff3300",
-      "tertiary-hover": "ff3300"
+      "tertiary-hover": "ff3300",
+      "tertiary-low": "E6E6E6"
     }
   }
 }
