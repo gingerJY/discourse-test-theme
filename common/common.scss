@@ -2,13 +2,15 @@
 @import "header";
 @import "badges";
 @import "buttons";
-@import "_topic-list";
 @import "select-kit";
+@import "_topic-list";
 @import "topic-timeline";
+@import "topic-post";
 @import "category-list";
 
 html {
   font-family: 'Poppins', 'Noto Sans SC';
+  font-size: var(--font-0);
 }
 
 :root {
