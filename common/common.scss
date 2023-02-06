@@ -14,7 +14,6 @@
 }
 
 html {
-  font-family: 'Poppins' !important;
   font-size: var(--font-0);
 }
 
@@ -22,6 +21,8 @@ html {
     --d-max-width: 1200px;
     --d-button-border-radius: 100px;
     --line-height-very-large: 1.5;
+    --font-family: 'Poppins';
+    --heading-font-family: 'Poppins';
     // --tertiary-hover: #84ECFF;
 }
 
