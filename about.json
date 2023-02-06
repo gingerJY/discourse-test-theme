@@ -3,7 +3,8 @@
   "license_url": "https://github.com/gingerJY/discourse-test-theme/blob/master/LICENSE",
   "about_url": "https://github.com/gingerJY/discourse-test-theme/blob/master/README.md",
   "assets": {
-    "icons-sprite": "/assets/icons.svg"
+    "icons-sprite": "/assets/icons.svg",
+    "Poppins": "assets/Poppins.ttf"
   },
   "color_schemes": {
     "Test Light": {

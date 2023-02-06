@@ -8,8 +8,13 @@
 @import "topic-post";
 @import "category-list";
 
+@font-face {
+  font-family: 'Poppins';
+  src: url($Poppins) format('ttf');
+}
+
 html {
-  font-family: 'Poppins', 'Noto Sans SC';
+  font-family: 'Poppins';
   font-size: var(--font-0);
 }
 
