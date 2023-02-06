@@ -34,8 +34,27 @@ html {
 .user-menu.revamped .tabs-list .btn {
   border-radius: 0;
 }
+
+.d-editor-button-bar {
+  .btn {
+    border-radius: 0;
+  }
+}
 // ----------------------------------
 
+// 用户信息卡片
+.user-card,
+.group-card {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+// 汉堡下拉框阴影
+.menu-panel {
+  border: none;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
 
 // .test-banner {
 //   height: 300px;
