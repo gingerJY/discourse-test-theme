@@ -4,7 +4,7 @@
   "about_url": "https://github.com/gingerJY/discourse-test-theme/blob/master/README.md",
   "assets": {
     "icons-sprite": "/assets/icons.svg",
-    "Poppins": "assets/Poppins.ttf"
+    "Poppins": "assets/Poppins.woff2"
   },
   "color_schemes": {
     "Test Light": {
