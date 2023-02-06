@@ -10,3 +10,50 @@
   padding: 0;
   width: 60px;
 }
+
+nav.post-controls {
+  .actions {
+    // Some buttons can be doubled up, like likes or flags
+    .double-button {
+      margin-left: var(--control-margin);
+      &:hover {
+        button {
+          background: var(--love-low);
+          color: var(--love);
+        }
+      }
+      button {
+        &.like {
+          // Like button with 0 likes
+          &.d-hover {
+            background: var(--love-low);
+            .d-icon {
+              color: var(--love);
+            }
+          }
+        }
+        &.has-like {
+          // Like button after I've liked
+          &.d-hover {
+            background: var(--love-low);
+            .d-icon {
+              color: var(--love);
+            }
+          }
+        }
+        &.button-count {
+          // Like count button
+          &.d-hover {
+            color: var(--love);
+          }
+          + .toggle-like {
+            // Like button when like count is present
+            &.d-hover {
+              background: var(--love-low);
+            }
+          }
+        }
+      }
+    }
+  }
+}
