@@ -46,6 +46,15 @@ html {
     border-radius: 0;
   }
 }
+
+.sidebar-section-wrapper {
+  .btn {
+    background: transparent;
+    &:hover {
+      background: transparent;
+    }
+  }
+}
 // ----------------------------------
 
 // 用户信息卡片

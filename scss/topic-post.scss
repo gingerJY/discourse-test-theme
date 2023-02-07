@@ -11,6 +11,24 @@
   width: 60px;
 }
 
+.topic-map {
+  .map {
+    li {
+      display: inline-grid;
+      grid-auto-flow: row;
+    }
+
+    .number {
+      grid-row: 2;
+      margin-top: 6px;
+      font-size: var(--font-0);
+    }
+  }
+  .avatars {
+    display: none;
+  }
+}
+
 nav.post-controls {
   .actions {
     // Some buttons can be doubled up, like likes or flags
