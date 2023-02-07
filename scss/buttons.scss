@@ -5,14 +5,12 @@
 // Base
 // --------------------------------------------------
 
-@mixin btn(
-  $text-color: var(--primary),
+@mixin btn($text-color: var(--primary),
   $bg-color: var(--primary-very-low),
   $icon-color: var(--primary-high),
   $hover-text-color: var(--primary),
   $hover-bg-color: var(--primary-low),
-  $hover-icon-color: var(--primary)
-) {
+  $hover-icon-color: var(--primary)) {
   @include form-item-sizing;
   display: inline-flex;
   align-items: center;
@@ -24,70 +22,87 @@
   border-radius: var(--d-button-border-radius);
   cursor: pointer;
   transition: all 0.25s;
+
   .d-icon {
     color: $icon-color;
     margin-right: 0.45em;
     transition: color 0.25s;
+
     // For Windows High Contrast (see whcm.scss for more)
     @media (forced-colors: active) {
       color: ButtonText;
     }
   }
-  .d-button-label + .d-icon {
+
+  .d-button-label+.d-icon {
     margin-left: 0.45em;
     margin-right: 0;
   }
-  &.no-text {
+
+  &.btn-icon {
     width: 44px;
     height: 44px;
-    padding: 0;
+  }
 
+  &.no-text {
     .d-icon {
       margin-right: 0;
     }
   }
+
   @include hover {
     background: $hover-bg-color;
     color: $hover-text-color;
+
     .d-icon {
       color: $hover-icon-color;
+
       // For Windows High Contrast (see whcm.scss for more)
       @media (forced-colors: active) {
         color: Highlight;
       }
     }
   }
+
   &:focus {
     outline: none;
     background: $hover-bg-color;
     color: $hover-text-color;
+
     .d-icon {
       color: $hover-icon-color;
+
       @media (forced-colors: active) {
         color: Highlight;
       }
     }
   }
+
   &[href] {
     color: $text-color;
   }
+
   &:active,
   &.btn-active {
     @include linear-gradient($hover-bg-color 0%, $bg-color 100%);
     border-bottom-color: $bg-color;
   }
+
   &[disabled],
   &.disabled {
     &:not(.is-loading) {
       opacity: 0.4;
     }
+
     &:hover {
       color: $text-color;
       background: $bg-color;
+
       .d-icon {
         color: $icon-color;
       }
     }
+
     cursor: not-allowed;
   }
 
@@ -127,12 +142,10 @@
 // --------------------------------------------------
 
 .btn-primary {
-  @include btn(
-    $text-color: var(--secondary),
+  @include btn($text-color: var(--secondary),
     $bg-color: var(--tertiary),
     $icon-color: var(--secondary),
     $hover-text-color: var(--secondary),
     $hover-bg-color: var(--tertiary-hover),
-    $hover-icon-color: var(--secondary)
-  );
+    $hover-icon-color: var(--secondary));
 }
