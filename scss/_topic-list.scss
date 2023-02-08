@@ -14,13 +14,14 @@
 
 .topic-list {
   .topic-list-item {
+    border-bottom-color: var(--primary-100);
     &:hover {
       background-color: var(--primary-100);
     }
   }
 
   tbody {
-    border-top: 2px solid var(--primary-low);
+    border-top: 2px solid var(--primary-100);
   }
 
   .topic-list-data {
@@ -29,10 +30,29 @@
   .link-bottom-line {
     margin-top: 8px;
   }
+
+  .main-link {
+    @extend .topic-list-main-link;
+  }
 }
 
 .topic-list-main-link {
-  font-size: 16px;
+  font-size: var(--font-0);
+  font-weight: 600;
+}
+
+.topic-list-item.visited .topic-list-data,
+.latest-topic-list-item.visited,
+.category-topic-link.visited {
+  a.title:not(.badge-notification) {
+    color: var(--tertiary-700);
+  }
+  span.badge-category {
+    color: var(--tertiary-700);
+  }
+  a.discourse-tag {
+    color: var(--tertiary-700);
+  }
 }
 
 .category-breadcrumb>li {
