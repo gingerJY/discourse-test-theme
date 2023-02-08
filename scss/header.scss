@@ -1,6 +1,8 @@
 // https://github.com/discourse/discourse/blob/main/app/assets/stylesheets/common/base/header.scss
 .d-header {
   box-shadow: none;
+  border-bottom: 1px solid var(--primary-100);
+  
   #site-logo {
     height: 30px;
   }
