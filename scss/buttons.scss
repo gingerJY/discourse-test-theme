@@ -48,6 +48,10 @@
   &.no-text {
     .d-icon {
       margin-right: 0;
+      
+      &:last-child {
+        display: none;
+      }
     }
   }
 
