@@ -36,6 +36,19 @@
   }
 }
 
+.topic-body {
+  padding-top: 20px;
+  // border: none;
+}
+
+.topic-avatar {
+  // border: none;
+}
+
+.names span a {
+  color: var(--primary);
+}
+
 nav.post-controls {
   .actions {
 
@@ -93,4 +106,8 @@ nav.post-controls {
       }
     }
   }
+}
+
+#topic-title h1 {
+  margin-bottom: 8px;
 }
